@@ -1,8 +1,9 @@
-getwd()
+library("gdata")
+
 setwd("C:/Users/Jinyi/Dropbox/Jinyi/data_source/r_excercise")
 options(digits = 3)
 
-ls()
+ll()
 a = c(1:10)
 b = a^2
 plot(a, b)
